@@ -1,2 +1,2 @@
 # james-hope.github.io
-Moja stronka
+Work in progress
