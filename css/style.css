@@ -5,7 +5,6 @@
     font-family: 'Lora', serif;
     box-sizing: border-box;
 }
-
 .footer{
     position:fixed;
     bottom: 10px;
@@ -14,7 +13,6 @@
 .footer__author{
     font-size: 0.9rem;
 }
-
 .flex-container{
     height: 100vh;
     width: 100%;
@@ -47,47 +45,6 @@ h1, h2, h3 {
     transform:translate(120%,-100%);
 }
 
-.drag-start{
-    position:fixed;
-    height: 1px;
-    width: 1px;
-    top: 50%;
-    left:50%
-}
-.drag-end{
-    position:fixed;
-    height: 1px;
-    width: 1px;
-    top: 50%;
-    left:30%
-}
-
-/* little hover trigger */
-
-
-    /* .swiper-container:hover  {
-        transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(-50deg);
-    } */
-
-    /* .main:hover{
-        transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(-10deg);
-    } */
-
-    /* .main:hover .swiper-slide-shadow-right{
-        opacity: 0.15;
-    } */
-/* 
-    swiper-slide swiper-slide-duplicate swiper-slide-prev
-    swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active
-    swiper-slide swiper-slide-active {
-        opacity: 0.15;
-    }
-    swiper-slide swiper-slide-next{
-        opacity: 0.85;
-    }
-    transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(-10deg);
-}  */
-
 /* title-primary fades in */
 
 @keyframes fadeIn {
@@ -97,7 +54,6 @@ h1, h2, h3 {
         opacity: 1;
     }
 }
-
 .main__title-primary, .main__title-secondary {
     color: #fff;
     animation: fadeIn ease 1s;
@@ -168,10 +124,8 @@ h1, h2, h3 {
     animation-fill-mode: forwards;
 }
 
-
 /* SECTION 1 */
 .section1{}
-
 .section1__title-primary{
     font-size: 2rem;
 }
@@ -185,7 +139,6 @@ h1, h2, h3 {
 .section2 {
     transform: translateX(-100%);
 }
-
 .section2__title-primary{
     font-size: 2rem;
     text-align: right;
@@ -196,7 +149,6 @@ h1, h2, h3 {
 .section2-1 {
     transform: translateX(-100%);
 }
-
 .section2-1__title-primary{
     font-size: 2rem;
     text-align: right;
@@ -228,7 +180,6 @@ h1, h2, h3 {
     font-size: 2rem;
     text-align:center;
 }
-
 .swiper-slide__image-3-container{
     display:flex;
     flex-flow: row wrap;
@@ -241,6 +192,7 @@ h1, h2, h3 {
 }
 
 /* SECTION 4 */
+
 .projects{
     z-index: 2;
     transform: translate(150px,-55px);
@@ -276,7 +228,6 @@ h1, h2, h3 {
     justify-content: flex-start;
     transform: translateX(-379.16px);
 }
-
 .section5__title-primary{
     font-size: 2rem;
     text-align: center;
