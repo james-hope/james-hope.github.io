@@ -1,8 +1,8 @@
 const firstSlider = {
-    // autoplay: {
-    //     delay: 8000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 8000,
+        disableOnInteraction: false,
+    },
     cubeEffect: {
         shadowOffset: 150,
         shadowScale: '1.1',
