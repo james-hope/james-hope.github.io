@@ -207,7 +207,7 @@ h1, h2, h3 {
     cursor: pointer;
 }
 .section4 {
-    transform: translateY(-46.67px);
+    transform: translate(-53.67px, -46.67px);
 }
 #section4__background{
     transform: translateX(-171.351px);
@@ -219,7 +219,7 @@ h1, h2, h3 {
 .section4__title-primary{
     transform: translateY(-46.67px);
     font-size: 2rem;
-    text-align:center;
+    text-align: center;
 }
 
 /* SECTION 5 */
